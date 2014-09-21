@@ -91,5 +91,14 @@ This should run a local server hosting your web app, and launch a browser pointi
 
 Congratulations. Your yolomer scaffolding works. Now onwards into exploration!
 
+## Test
+
+You should also be able to run the basic tests provided by the scaffold using
+
+```
+grunt test
+```
+
+This should launch the browser as before, but now point to the _/test_ page showing the log output from the test runner. The scaffold contains default tests for the two elements defined within ('yo_greeting' and 'yo_list')
 
 ## Explore
