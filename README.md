@@ -1,7 +1,7 @@
 polymer-samples
 ===============
 
-Repository to share created (or discovered) Polymer applications, with  notes on best practices. Also check out
+Repository to share created (or discovered) Polymer applications.
 
 Quick links to samples:
  * [yolomer](README.yolomer.md)
