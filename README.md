@@ -14,7 +14,10 @@ yolomer
 There are many ways to get started scaffolding a Polymer project, including the use of [Yeoman](http://yeoman.io/) which just acquired its very own [generator-polymer](https://github.com/yeoman/generator-polymer) project, maintained by the [Chrome Developer Relations](https://github.com/yeoman) team.
 
 To get started, watch [Rob Dodson's](https://github.com/robdodson) guide to YOLOmer and follow along to scaffold out a Yeoman-generated Polymer app.
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/INH_OW4lFSs/0.jpg)]https://www.youtube.com/watch?v=INH_OW4lFSs)
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=INH_OW4lFSs" target="_blank" align=center>
+<img src="http://img.youtube.com/vi/INH_OW4lFSs/0.jpg" alt="YOLOmer! Polymer and Yeoman for lighting fast dev" 
+width="250" border="10" /></a>
 
 ### Step-by-Step Guide
 
