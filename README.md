@@ -3,17 +3,25 @@ polymer-samples
 
 Repository to share created (or discovered) Polymer applications, with  notes on best practices. Also check out
 
+Quick links to samples:
+ * [yolomer](#yolomer)
+
+
+References
+----------
  * [The Polymer Project](http://www.polymer-project.org/)
  * [Who's using Polymer](https://github.com/Polymer/polymer/wiki/Who's-using-Polymer%3F)
  * [Rob Dodson's YouTube Uploads](https://www.youtube.com/user/letswatchrob)
  * [Polymer CodeLabs from IO2014](http://io2014codelabs.appspot.com/static/index.html)
+
+
 
 yolomer
 -------
 
 There are many ways to get started scaffolding a Polymer project, including the use of [Yeoman](http://yeoman.io/) which just acquired its very own [generator-polymer](https://github.com/yeoman/generator-polymer) project, maintained by the [Chrome Developer Relations](https://github.com/yeoman) team.
 
-To get started, watch [Rob Dodson's](https://github.com/robdodson) guide to YOLOmer and follow along to scaffold out a Yeoman-generated Polymer app.
+ Watch [Rob Dodson's](https://github.com/robdodson) video guide to Yolomer.
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=INH_OW4lFSs" target="_blank" align=center>
 <img src="http://img.youtube.com/vi/INH_OW4lFSs/0.jpg" alt="YOLOmer! Polymer and Yeoman for lighting fast dev" 
