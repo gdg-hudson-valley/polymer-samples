@@ -277,6 +277,12 @@ You'll notice the browser page refresh (if grunt is still running) _but nothing 
 Turns out that (as you see above), the "core-menu" parent encloses one or more _core-item_ custom elements, each of which reference an _icon_. To get these resolved correctly, we need to go back and update our imports. The _dialog_ icon no longer exists, so feel free to remove that option, or replace it with a different option or icon (e.g., 'announcement').
 
 
-#### Data Bindings & Controllers
+### Controllers (Scripts)
 
 So far, you've been able to import and add custom elements to the application. Next up, we need to understand how to automatically bind data to the view elements, and how to handle events fired from these elements (e.g., due to user interactions).
+
+#### Data Helpers
+
+#### Event Handlers
+
+
