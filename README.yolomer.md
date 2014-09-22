@@ -5,6 +5,9 @@ yolomer
   * [README samples](README.md)
   * [About Yolomer](#about-yolomer)
   * [Setup](#setup)
+  * [Run](#run)
+  * [Test](#test)
+  * [Explore](#explore)
 
 
 ## About Yolomer
