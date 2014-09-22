@@ -186,6 +186,8 @@ Custom elements are the 'core' value proposition of Web Components. By defining 
 
 The Yeoman scaffold will create a directory for each custom element inside the parent _elements_ directory, and create a default .html (template + script) and a .scss (style) file for that element within that subdirectory. 
 
+#### Create Custom Elements
+
 To test this, try to create a custom element. In the root directory for the application (i.e., the parent directory containing app/), type in the following command to create a custom element called 'yo-custom'
 
 ```
@@ -230,4 +232,51 @@ Of course, at present that element does nothing (since its template is empty) so
     <!-- END: I just added this part -->
   </template>
 ```
-Now running 'grunt serve' on your application should cause the additional line above to show up on the page.
+Now running 'grunt serve' on your application should cause the additional line above to show up on the page, between two horizontal rules.
+
+
+#### Use (Existing) Custom Elements
+
+By specifying dependencies on _core-elements_ and _paper-elements_ (see bower.json), the scaffold automatically gives you access to a [rich collection of premade elements](http://www.polymer-project.org/docs/elements/), any of which can be seamlessly used by simply importing the related element_.html_ file.
+
+For example, to use the [_core-menu_](http://www.polymer-project.org/docs/elements/core-elements.html#core-menu) element, modify the _elements.html_ to add the requisite import as shown (where _bower\_components_ is the standard location for bower-installed app dependencies). 
+
+```html
+<link rel="import" href="yo-list/yo-list.html">
+<link rel="import" href="yo-greeting/yo-greeting.html">
+<link rel="import" href="yo-custom/yo-custom.html">
+<link rel="import" href="../bower_components/core-menu/core-menu.html">
+```
+Then, simply modify the application page (here, _index.html_) to contain the relevant element - we'll follow [this example](http://www.polymer-project.org/docs/elements/core-elements.html#core-menu):
+
+```html
+<body unresolved>
+
+  <div class="hero-unit">
+    <yo-greeting></yo-greeting>
+    <p>You now have</p>
+    <yo-list></yo-list>
+    <yo-custom></yo-custom>
+
+    <!-- referencing the new import -->
+    <core-menu selected="0">
+	  <core-item icon="settings" label="Settings"></core-item>
+	  <core-item icon="dialog" label="Dialog"></core-item>
+	  <core-item icon="search" label="Search"></core-item>
+	</core-menu>
+  </div>
+
+  <!-- build:js scripts/app.js -->
+  <script src="scripts/app.js"></script>
+  <!-- endbuild-->
+</body>
+```
+
+You'll notice the browser page refresh (if grunt is still running) _but nothing shows up_. Why?
+
+Turns out that (as you see above), the "core-menu" parent encloses one or more _core-item_ custom elements, each of which reference an _icon_. To get these resolved correctly, we need to go back and update our imports. The _dialog_ icon no longer exists, so feel free to remove that option, or replace it with a different option or icon (e.g., 'announcement').
+
+
+#### Data Bindings & Controllers
+
+So far, you've been able to import and add custom elements to the application. Next up, we need to understand how to automatically bind data to the view elements, and how to handle events fired from these elements (e.g., due to user interactions).
