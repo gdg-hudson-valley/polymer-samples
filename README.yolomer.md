@@ -8,6 +8,7 @@ yolomer
   * [Run](#run)
   * [Test](#test)
   * [Explore](#explore)
+  * [Custom Elements](#custom-elements)
 
 
 ## About Yolomer
