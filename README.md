@@ -13,8 +13,10 @@ Resources
  * [Who's using Polymer](https://github.com/Polymer/polymer/wiki/Who's-using-Polymer%3F)
  * [Polymer CodeLabs from IO2014](http://io2014codelabs.appspot.com/static/index.html)
  * [Polymer Videos from IO2014](https://www.google.com/events/io/io14videos) -- set Filter to "Polymer"
- * [Polymer Labs](https://github.com/PolymerLabs) -- maintained by [Addy Osmani](https://github.com/addyosmani), a large collection of Polymer projects
- * [Google Web Components](http://googlewebcomponents.github.io/) -- collection of Google web products built with Polymer
+ * [Polymer Labs](https://github.com/PolymerLabs) by [Addy Osmani](https://github.com/addyosmani), with many Polymer samples
+ * [Google Web Components](http://googlewebcomponents.github.io/) Custom elements for various Google APIs
+ * 
+ 
 
 
  Talks/Articles
