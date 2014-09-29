@@ -4,7 +4,8 @@ polymer-samples
 Repository to share created (or discovered) Polymer applications.
 
 Quick links to samples:
- * [yolomer](README.yolomer.md)
+ * [yolomer](README.yolomer.md) -- Yeoman generator for Polymer
+ * [polytechic](README.polytechnic.md) --  Polymer Polytechic codelabs experiments..
 
 
 Resources
